@@ -16,7 +16,7 @@ Sorgulama işlemi yapmadan önce tc kimlik algoritması kontrolü yapılır bu k
 <p>    echo "TC kimlik numarası doğru.";</p>
 <p>}else{</p>
 <p>    foreach($tckimlikDogrulama->getHatalar() AS $hata){</p>
-<p>        echo "<div>$hata</div>;</p>
+<p>        echo "$hata";</p>
 <p>    }</p>
 <p>}</p>
 </body>
